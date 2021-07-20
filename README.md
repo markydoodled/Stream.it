@@ -14,12 +14,16 @@ Stay Tuned...
 - Stream Video From A URL
 - Stream Audio From A URL
 - Get Media Metadata
+- Stream YouTube
 
 # Features To Come
 
 - Video Downloading
 - Audio Downloading
 - Saved URL List
+- Download YouTube Videos
+- tvOS App
+- macOS App
 
 # Images
 
