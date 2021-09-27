@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Stream.it' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Stream.it
+
+end
+
+target 'Stream.it iOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Stream.it iOS
+  pod 'YouTubePlayer'
+  pod 'SwiftAudioPlayer'
+
+end

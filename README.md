@@ -9,21 +9,16 @@ Stay Tuned...
 
 # Features
 
-- Stream Video From A File
-- Stream Audio From A File
 - Stream Video From A URL
 - Stream Audio From A URL
-- Get Media Metadata
-- Stream YouTube
+- Stream YouTube (iOS Only)
+- macOS App
 
 # Features To Come
 
 - Video Downloading
 - Audio Downloading
-- Saved URL List
-- Download YouTube Videos
 - tvOS App
-- macOS App
 
 # Images
 

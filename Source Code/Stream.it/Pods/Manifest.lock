@@ -1,0 +1,20 @@
+PODS:
+  - SwiftAudioPlayer (7.4.0)
+  - YouTubePlayer (0.7.2)
+
+DEPENDENCIES:
+  - SwiftAudioPlayer
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - SwiftAudioPlayer
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  SwiftAudioPlayer: 50ed9f3b6563829d1f77b957aab56a8ac6fd111e
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
+
+PODFILE CHECKSUM: c3c138f7d253f719f9d160ea45e01f72f6d14a73
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,1130 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0050207DE1AD9E807C300821AAF90F2F /* SwiftAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48454D740E1EEEE9F953751FC71279A9 /* SwiftAudioPlayer-dummy.m */; };
+		081832C26D5BA5B22489AF1D07094CD9 /* SAPlayerUpdateSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07088BF1B93B4B9AAC369A3B28FC3DD7 /* SAPlayerUpdateSubscription.swift */; };
+		0970AEF5F44524597BFE7319F3899841 /* AudioConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D924F80B4640F3A73044DCE441CAFB4 /* AudioConverter.swift */; };
+		0BACCD30BE71D046440ADA1E8953F450 /* AudioStreamWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBE693A58BE96964B5454F970B7AF4 /* AudioStreamWorker.swift */; };
+		0C27045051E4170B9F156D049695A896 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3388AE3EEF3F5423E7FA23404E1ACE /* Date.swift */; };
+		0FE86E6F6A51BD4E6D4A7E903545E1E3 /* AudioQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD023FCE2A9BD6FF3FBB1EDDAC9CFE4E /* AudioQueue.swift */; };
+		198A9C6930D89FF5206D86E2D3AFABCC /* AudioStreamEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431503FD4060ED35E412ACACB0439181 /* AudioStreamEngine.swift */; };
+		1B6EC59802D31BE0B70A3B2EDC7555AC /* AudioDownloadWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319C8E7453BA8DEC4303A80670179E3 /* AudioDownloadWorker.swift */; };
+		1C10A7A87427AE3308A01DC84D9C9E9B /* Pods-Stream.it iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A04F022230D8A98ABB7CB748D32BE /* Pods-Stream.it iOS-dummy.m */; };
+		1D72E03DF79E36E3B1D570ECBB9CEF11 /* AudioParserPacketListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B3243C0B64A4F8384D9EC6CA26CD4 /* AudioParserPacketListener.swift */; };
+		2C9CDDE18FCA46F9351451521995D65A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995F5C84772F9BB826E1325C9ABCB6D /* Data.swift */; };
+		3C4312279116CB39740057FB7B12AF4B /* AudioThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88097DCE12AEC14185B775C7FA5EADE /* AudioThrottler.swift */; };
+		44D7B86E15D251E8C60B0ECFC83D7305 /* StreamingDownloadDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E26E609F6682FF036D3B1129C9D5FD /* StreamingDownloadDirector.swift */; };
+		4504586409FFAF9C636C80A571FF7B9F /* SAPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB514DB1375CDDF9D652992E83E39964 /* SAPlayerDownloader.swift */; };
+		53D59E373510F1E69721BBEEE6D2B956 /* SAPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54091E6536B5045B25F3EF6EFCA8627B /* SAPlayer.swift */; };
+		571280A1BCEBAF880C229B684D65312E /* AudioQueueDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2699084D24007D4FE363B74BEB24D86 /* AudioQueueDirector.swift */; };
+		57E5E46E0769D3B27E347FA9608022C0 /* SAPlayerFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C95D6D21C178EF92313D4015848A85 /* SAPlayerFeatures.swift */; };
+		5E16A536FA91AC6319D2F23E98178220 /* DirectorThreadSafeClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F589C72FDD0F5ABE39FAD6ADBC8E370F /* DirectorThreadSafeClosures.swift */; };
+		5F3B02C9DC7420B3FA078F8C1199CD00 /* Pods-Stream.it-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1793237659AE18CF31B763EC0EE93F /* Pods-Stream.it-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A909D8DCA0C7CDF80F209E70AF646F /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00815C1B48903CE67A8C1476034CB23 /* URL.swift */; };
+		65C3A0A52B40B8E9D3BFCD964EDE508D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B9F9217490098EADEC7BE40F0C327 /* Log.swift */; };
+		65D06025EE2F0A07B71F3B312CC0B944 /* AudioDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A46A8AA5C5F123B01402B3A19CB53B2 /* AudioDataManager.swift */; };
+		6D3F76F7CB02C941CB4841D852C05DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E5A5395F45780622405F504B2804 /* Foundation.framework */; };
+		748ED98F6C94077427BE6BD4F306ED78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E5A5395F45780622405F504B2804 /* Foundation.framework */; };
+		79E1181C79D9E669444C320395D254DE /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = BCA8BDC7A3925CC7B1921FCD5F6CCD8A /* YTPlayer.html */; };
+		7D5863A3844971446B23A0C9BAAAABD1 /* Pods-Stream.it-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9F1D6C435880127929FD8F953DB6CF /* Pods-Stream.it-dummy.m */; };
+		7EA2854B68A7616A73A3AAAAC0390B35 /* SAPlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DAAF617E10962D075A7FEC4D81009 /* SAPlayerPresenter.swift */; };
+		7EBAD84DB74B626670BC0D413D5654DA /* StreamProgressPTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB606926F482364C4809386CBD5902 /* StreamProgressPTO.swift */; };
+		81B0E4B5CA68235A37D86398E2BCEC5A /* DirectorThreadSafeClosuresDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FBD16DCB34659E334BCAC613A3523 /* DirectorThreadSafeClosuresDeprecated.swift */; };
+		83F4A638D27A828C4B802778EC4BE98A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767258344144F7323E4A7DA9B5FA0FE /* Constants.swift */; };
+		904B55B094E028CFA1325184C0658BEC /* Pods-Stream.it iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1662FDD3304B6846741069FC059DBADF /* Pods-Stream.it iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98ED989444E9F6E4AE75A5C62211456A /* AudioParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD237CA9455A12056DF7F8BEF27A7496 /* AudioParserErrors.swift */; };
+		A046CD512717525C845E4EFF78F75E8F /* SAPlayingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056FD1742E7C5055AAD17F66D20865CF /* SAPlayingStatus.swift */; };
+		A9493963E319CD5751CE91E57F507589 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6109A7041D5ED72B0E38D146514DD12 /* FileStorage.swift */; };
+		ABE106C14BF7B71E00C1EFB57CC5B3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E5A5395F45780622405F504B2804 /* Foundation.framework */; };
+		AC360861C34C20A0E530DD64D71C1A6C /* StreamProgressDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE23A1AADFBCE29BF4D3BB76315A8E1 /* StreamProgressDTO.swift */; };
+		AF353D74401306464BF92055A2C3442C /* AudioConverterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358B27C6ED137541A493926F2E6BD1A8 /* AudioConverterErrors.swift */; };
+		B4DD2EDAED8F75345383006E53F0CBE2 /* SAPlayerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A85768941CF2E99EC38326A408DD6 /* SAPlayerHelpers.swift */; };
+		B76BDCEB38EB565ADCE662AEB0BD352D /* AudioDiskEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A811AA1984C2C86A7CA6EA9C23E6D77 /* AudioDiskEngine.swift */; };
+		B9FEC95251A8E947187AF0CDD5FF24AA /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D911DB40119965FC741850E1F8656C /* YouTubePlayer.swift */; };
+		C018775B8C99FE0D182C864F61C6DFEE /* AudioConverterListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A54093D63456F445B7AB02A27E0EF /* AudioConverterListener.swift */; };
+		C476AE489AC032C4E6BCE082C1FC12DB /* AudioParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FF6E5E44AF107F827BBD2F5020372D /* AudioParser.swift */; };
+		C563ABF10AAE505C95D987F88FB9E0BD /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F497E0589791161224C932CD33F195 /* YouTubePlayer-dummy.m */; };
+		C998FCBDD3585504440701A3A99A6D27 /* SAPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE9072A5704041A9B8B2BEDB43047B /* SAPlayerDelegate.swift */; };
+		DC0C12012E9D26046DA7E853863490C9 /* SAAudioAvailabilityRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877167F5AA37B44A25C390C452BA3E9 /* SAAudioAvailabilityRange.swift */; };
+		E3E65393417F64ED73B1292878190FB9 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0650E62FA1C0445CF588879CF34A753C /* AudioEngine.swift */; };
+		E8C1ABBC5891DB3A42B97C64BC18A9D5 /* AudioParserPropertyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237554CD1CF73A935EC3D6495638A92D /* AudioParserPropertyListener.swift */; };
+		EB69E4E47F4A81792C62A82D9AD64A5D /* LockScreenViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB2BA9999FB7BFE30A6AB8ACE19A55 /* LockScreenViewProtocol.swift */; };
+		EF93F8EC731E6181A27DA8FC2D07E191 /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39ACBAB5D6CDEB2D750B4F03C90470 /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C2A6A45F0423B4B5A8733FBB9093F1 /* SwiftAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20974C3FB1D631E08DFE2003F8577C81 /* SwiftAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F334BE9176B69C1CDFFA90CC23C4FBB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */; };
+		F59134582A0828C0A9E5CA82C9A67986 /* DownloadProgressDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE7D2B5600407B23C0BE74E2571EF3C /* DownloadProgressDirector.swift */; };
+		F7C2667C42DACD40996B939C843C17ED /* AudioParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E196BD17DC630372563FE410195473 /* AudioParsable.swift */; };
+		FB08298B314FA7D99E5E9C78597B2ECC /* AudioClockDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56E2B96AA4A904745A64921154C2DA /* AudioClockDirector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01F76157B57CED7BB61F98E19F3A587A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFDAF801D749F87A32FC2773FFE7390;
+			remoteInfo = SwiftAudioPlayer;
+		};
+		B818550A43DF22A0BCA8585755D1913B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6273C43DC7FF94E93DBFF580DB584296;
+			remoteInfo = YouTubePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E196BD17DC630372563FE410195473 /* AudioParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParsable.swift; path = Source/Engine/Parser/AudioParsable.swift; sourceTree = "<group>"; };
+		03D911DB40119965FC741850E1F8656C /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		056FD1742E7C5055AAD17F66D20865CF /* SAPlayingStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayingStatus.swift; path = Source/Engine/SAPlayingStatus.swift; sourceTree = "<group>"; };
+		0650E62FA1C0445CF588879CF34A753C /* AudioEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioEngine.swift; path = Source/Engine/AudioEngine.swift; sourceTree = "<group>"; };
+		07088BF1B93B4B9AAC369A3B28FC3DD7 /* SAPlayerUpdateSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerUpdateSubscription.swift; path = Source/SAPlayerUpdateSubscription.swift; sourceTree = "<group>"; };
+		0A00826B1052D19C905A8005AEDE250F /* SwiftAudioPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAudioPlayer-prefix.pch"; sourceTree = "<group>"; };
+		10EE53493CD6F9952C1D9C33732A6E6C /* SwiftAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAudioPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		116A0AB0276D1E0BC6CCA940C8B0111B /* Pods-Stream.it iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stream.it iOS.modulemap"; sourceTree = "<group>"; };
+		1662FDD3304B6846741069FC059DBADF /* Pods-Stream.it iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stream.it iOS-umbrella.h"; sourceTree = "<group>"; };
+		18CB2BA9999FB7BFE30A6AB8ACE19A55 /* LockScreenViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockScreenViewProtocol.swift; path = Source/LockScreenViewProtocol.swift; sourceTree = "<group>"; };
+		1BE23A1AADFBCE29BF4D3BB76315A8E1 /* StreamProgressDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamProgressDTO.swift; path = Source/Model/Streaming/StreamProgressDTO.swift; sourceTree = "<group>"; };
+		1CE7D2B5600407B23C0BE74E2571EF3C /* DownloadProgressDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadProgressDirector.swift; path = Source/Directors/DownloadProgressDirector.swift; sourceTree = "<group>"; };
+		1D924F80B4640F3A73044DCE441CAFB4 /* AudioConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverter.swift; path = Source/Engine/Converter/AudioConverter.swift; sourceTree = "<group>"; };
+		1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3388AE3EEF3F5423E7FA23404E1ACE /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Source/Util/Date.swift; sourceTree = "<group>"; };
+		20974C3FB1D631E08DFE2003F8577C81 /* SwiftAudioPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAudioPlayer-umbrella.h"; sourceTree = "<group>"; };
+		237554CD1CF73A935EC3D6495638A92D /* AudioParserPropertyListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParserPropertyListener.swift; path = Source/Engine/Parser/AudioParserPropertyListener.swift; sourceTree = "<group>"; };
+		2773420503A490E0DE1FC678E62D4E98 /* Pods-Stream.it-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stream.it-Info.plist"; sourceTree = "<group>"; };
+		2D411F9C44DBF54518947B23B8336C79 /* YouTubePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.debug.xcconfig; sourceTree = "<group>"; };
+		3261E5A5395F45780622405F504B2804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34A7A697DDDFAA4A50C4F92ACEF4866D /* SwiftAudioPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAudioPlayer-Info.plist"; sourceTree = "<group>"; };
+		34FA4A680AF39BE315B38215B6628D0D /* Pods-Stream.it.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stream.it.release.xcconfig"; sourceTree = "<group>"; };
+		358B27C6ED137541A493926F2E6BD1A8 /* AudioConverterErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverterErrors.swift; path = Source/Engine/Converter/AudioConverterErrors.swift; sourceTree = "<group>"; };
+		35C95D6D21C178EF92313D4015848A85 /* SAPlayerFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerFeatures.swift; path = Source/SAPlayerFeatures.swift; sourceTree = "<group>"; };
+		38B0536CE396F1FCBFA9B1E8DF26E93F /* Pods-Stream.it.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stream.it.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5E095F8C135176FA576D817C261A80 /* Pods-Stream.it iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stream.it iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E979022596D4038DDB19B1E1E5CD98B /* Pods-Stream.it iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stream.it iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		431503FD4060ED35E412ACACB0439181 /* AudioStreamEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioStreamEngine.swift; path = Source/Engine/AudioStreamEngine.swift; sourceTree = "<group>"; };
+		436F9B44657B3B8ED66F76E50C36A49B /* Pods-Stream.it iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stream.it iOS.release.xcconfig"; sourceTree = "<group>"; };
+		44A499DD46DCD816CEBF6B375144C20F /* Pods-Stream.it iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stream.it iOS-Info.plist"; sourceTree = "<group>"; };
+		48454D740E1EEEE9F953751FC71279A9 /* SwiftAudioPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAudioPlayer-dummy.m"; sourceTree = "<group>"; };
+		54091E6536B5045B25F3EF6EFCA8627B /* SAPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayer.swift; path = Source/SAPlayer.swift; sourceTree = "<group>"; };
+		5A46A8AA5C5F123B01402B3A19CB53B2 /* AudioDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioDataManager.swift; path = Source/Model/AudioDataManager.swift; sourceTree = "<group>"; };
+		5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5CDFFFAAB272D074E66113E8BA05BFA1 /* Pods-Stream.it iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stream.it iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63DAA82E7A6B023443EB332401E03701 /* Pods-Stream.it.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stream.it.modulemap"; sourceTree = "<group>"; };
+		6877167F5AA37B44A25C390C452BA3E9 /* SAAudioAvailabilityRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAAudioAvailabilityRange.swift; path = Source/Engine/SAAudioAvailabilityRange.swift; sourceTree = "<group>"; };
+		6CCB606926F482364C4809386CBD5902 /* StreamProgressPTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamProgressPTO.swift; path = Source/Model/StreamProgressPTO.swift; sourceTree = "<group>"; };
+		724A601D79F84BF27355EC58E446662C /* Pods-Stream.it-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stream.it-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BD412E98143B95AB899EDBCDF68FE10 /* YouTubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.release.xcconfig; sourceTree = "<group>"; };
+		7E0A54093D63456F445B7AB02A27E0EF /* AudioConverterListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverterListener.swift; path = Source/Engine/Converter/AudioConverterListener.swift; sourceTree = "<group>"; };
+		80CBE693A58BE96964B5454F970B7AF4 /* AudioStreamWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioStreamWorker.swift; path = Source/Model/Streaming/AudioStreamWorker.swift; sourceTree = "<group>"; };
+		82AE9072A5704041A9B8B2BEDB43047B /* SAPlayerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerDelegate.swift; path = Source/SAPlayerDelegate.swift; sourceTree = "<group>"; };
+		846A85768941CF2E99EC38326A408DD6 /* SAPlayerHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerHelpers.swift; path = Source/SAPlayerHelpers.swift; sourceTree = "<group>"; };
+		875FBD16DCB34659E334BCAC613A3523 /* DirectorThreadSafeClosuresDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectorThreadSafeClosuresDeprecated.swift; path = Source/Util/DirectorThreadSafeClosuresDeprecated.swift; sourceTree = "<group>"; };
+		8A811AA1984C2C86A7CA6EA9C23E6D77 /* AudioDiskEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioDiskEngine.swift; path = Source/Engine/AudioDiskEngine.swift; sourceTree = "<group>"; };
+		9767258344144F7323E4A7DA9B5FA0FE /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Util/Constants.swift; sourceTree = "<group>"; };
+		9995F5C84772F9BB826E1325C9ABCB6D /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Source/Util/Data.swift; sourceTree = "<group>"; };
+		9A1B9F9217490098EADEC7BE40F0C327 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Source/Util/Log.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9F1D6C435880127929FD8F953DB6CF /* Pods-Stream.it-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stream.it-dummy.m"; sourceTree = "<group>"; };
+		A02A04F022230D8A98ABB7CB748D32BE /* Pods-Stream.it iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stream.it iOS-dummy.m"; sourceTree = "<group>"; };
+		A0FF6E5E44AF107F827BBD2F5020372D /* AudioParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParser.swift; path = Source/Engine/Parser/AudioParser.swift; sourceTree = "<group>"; };
+		A2699084D24007D4FE363B74BEB24D86 /* AudioQueueDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioQueueDirector.swift; path = Source/Directors/AudioQueueDirector.swift; sourceTree = "<group>"; };
+		A319C8E7453BA8DEC4303A80670179E3 /* AudioDownloadWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioDownloadWorker.swift; path = Source/Model/Downloading/AudioDownloadWorker.swift; sourceTree = "<group>"; };
+		A33DAAF617E10962D075A7FEC4D81009 /* SAPlayerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerPresenter.swift; path = Source/SAPlayerPresenter.swift; sourceTree = "<group>"; };
+		A88097DCE12AEC14185B775C7FA5EADE /* AudioThrottler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioThrottler.swift; path = Source/Engine/AudioThrottler.swift; sourceTree = "<group>"; };
+		AA569BF34EE7BF3F41E74E3761142466 /* SwiftAudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAudioPlayer.release.xcconfig; sourceTree = "<group>"; };
+		AC56E2B96AA4A904745A64921154C2DA /* AudioClockDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioClockDirector.swift; path = Source/Directors/AudioClockDirector.swift; sourceTree = "<group>"; };
+		AE1793237659AE18CF31B763EC0EE93F /* Pods-Stream.it-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stream.it-umbrella.h"; sourceTree = "<group>"; };
+		B00815C1B48903CE67A8C1476034CB23 /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URL.swift; path = Source/Util/URL.swift; sourceTree = "<group>"; };
+		B31CE9034A30354EB3EE4E82ADFCC822 /* Pods-Stream.it-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stream.it-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB39ACBAB5D6CDEB2D750B4F03C90470 /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		BCA8BDC7A3925CC7B1921FCD5F6CCD8A /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
+		BFB95C63B184D791998AE429F31550CB /* YouTubePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YouTubePlayer-Info.plist"; sourceTree = "<group>"; };
+		C0F497E0589791161224C932CD33F195 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		C39E2589E90164BF072DA221EEC88278 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		C776D67537EC8702AEED4F392CDD10DE /* Pods-Stream.it iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stream.it iOS-frameworks.sh"; sourceTree = "<group>"; };
+		CAA622C17B4FF12322C40DAB3BCBB223 /* Pods_Stream_it.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stream_it.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB514DB1375CDDF9D652992E83E39964 /* SAPlayerDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerDownloader.swift; path = Source/SAPlayerDownloader.swift; sourceTree = "<group>"; };
+		DD237CA9455A12056DF7F8BEF27A7496 /* AudioParserErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParserErrors.swift; path = Source/Engine/Parser/AudioParserErrors.swift; sourceTree = "<group>"; };
+		DE37DECA54567CABC4AD32C6BB4BB9FB /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
+		E164FC4192B8F428E44936709FBE8F99 /* Pods-Stream.it iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Stream.it iOS"; path = Pods_Stream_it_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F0C4F7A8164EAA0AA2FAAFB3EE7D39 /* SwiftAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6109A7041D5ED72B0E38D146514DD12 /* FileStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileStorage.swift; path = Source/Model/Downloading/FileStorage.swift; sourceTree = "<group>"; };
+		F42B3243C0B64A4F8384D9EC6CA26CD4 /* AudioParserPacketListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParserPacketListener.swift; path = Source/Engine/Parser/AudioParserPacketListener.swift; sourceTree = "<group>"; };
+		F589C72FDD0F5ABE39FAD6ADBC8E370F /* DirectorThreadSafeClosures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectorThreadSafeClosures.swift; path = Source/Util/DirectorThreadSafeClosures.swift; sourceTree = "<group>"; };
+		F8E26E609F6682FF036D3B1129C9D5FD /* StreamingDownloadDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamingDownloadDirector.swift; path = Source/Directors/StreamingDownloadDirector.swift; sourceTree = "<group>"; };
+		FC9052B8369A38DE9A7B11D45CA81157 /* SwiftAudioPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAudioPlayer.modulemap; sourceTree = "<group>"; };
+		FD023FCE2A9BD6FF3FBB1EDDAC9CFE4E /* AudioQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioQueue.swift; path = Source/Model/AudioQueue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF9EFD42B13196AB8F9F7AE1E627F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3F76F7CB02C941CB4841D852C05DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44911F944FD7C91BA7CEF5415FC7F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748ED98F6C94077427BE6BD4F306ED78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE27A3FA6BE0744482CAB9F8EF32ACBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F334BE9176B69C1CDFFA90CC23C4FBB3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE25855AC344DA6FA9684D799E49984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE106C14BF7B71E00C1EFB57CC5B3DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25AEB8493BCD5B581A4916EF45986ADA /* Pods-Stream.it iOS */ = {
+			isa = PBXGroup;
+			children = (
+				116A0AB0276D1E0BC6CCA940C8B0111B /* Pods-Stream.it iOS.modulemap */,
+				5CDFFFAAB272D074E66113E8BA05BFA1 /* Pods-Stream.it iOS-acknowledgements.markdown */,
+				3D5E095F8C135176FA576D817C261A80 /* Pods-Stream.it iOS-acknowledgements.plist */,
+				A02A04F022230D8A98ABB7CB748D32BE /* Pods-Stream.it iOS-dummy.m */,
+				C776D67537EC8702AEED4F392CDD10DE /* Pods-Stream.it iOS-frameworks.sh */,
+				44A499DD46DCD816CEBF6B375144C20F /* Pods-Stream.it iOS-Info.plist */,
+				1662FDD3304B6846741069FC059DBADF /* Pods-Stream.it iOS-umbrella.h */,
+				3E979022596D4038DDB19B1E1E5CD98B /* Pods-Stream.it iOS.debug.xcconfig */,
+				436F9B44657B3B8ED66F76E50C36A49B /* Pods-Stream.it iOS.release.xcconfig */,
+			);
+			name = "Pods-Stream.it iOS";
+			path = "Target Support Files/Pods-Stream.it iOS";
+			sourceTree = "<group>";
+		};
+		41C052635D3E21350AC08C5F316759F6 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4BC766C504E78AE137B441E07333195E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2C6E8C1DDC22A209D0CE021818C51 /* Pods-Stream.it */,
+				25AEB8493BCD5B581A4916EF45986ADA /* Pods-Stream.it iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4D2B133C698F1F794109D429493C20EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE37DECA54567CABC4AD32C6BB4BB9FB /* YouTubePlayer.modulemap */,
+				C0F497E0589791161224C932CD33F195 /* YouTubePlayer-dummy.m */,
+				BFB95C63B184D791998AE429F31550CB /* YouTubePlayer-Info.plist */,
+				C39E2589E90164BF072DA221EEC88278 /* YouTubePlayer-prefix.pch */,
+				BB39ACBAB5D6CDEB2D750B4F03C90470 /* YouTubePlayer-umbrella.h */,
+				2D411F9C44DBF54518947B23B8336C79 /* YouTubePlayer.debug.xcconfig */,
+				7BD412E98143B95AB899EDBCDF68FE10 /* YouTubePlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
+		4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */,
+				41C052635D3E21350AC08C5F316759F6 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50D5B59A0A3B542C94A5272E5319C3CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9052B8369A38DE9A7B11D45CA81157 /* SwiftAudioPlayer.modulemap */,
+				48454D740E1EEEE9F953751FC71279A9 /* SwiftAudioPlayer-dummy.m */,
+				34A7A697DDDFAA4A50C4F92ACEF4866D /* SwiftAudioPlayer-Info.plist */,
+				0A00826B1052D19C905A8005AEDE250F /* SwiftAudioPlayer-prefix.pch */,
+				20974C3FB1D631E08DFE2003F8577C81 /* SwiftAudioPlayer-umbrella.h */,
+				10EE53493CD6F9952C1D9C33732A6E6C /* SwiftAudioPlayer.debug.xcconfig */,
+				AA569BF34EE7BF3F41E74E3761142466 /* SwiftAudioPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftAudioPlayer";
+			sourceTree = "<group>";
+		};
+		81A62E5A456C6F2C2AF1232F79629D32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8BDC7A3925CC7B1921FCD5F6CCD8A /* YTPlayer.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		950F853D5A5BB9A8113D352882833A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA622C17B4FF12322C40DAB3BCBB223 /* Pods_Stream_it.framework */,
+				E164FC4192B8F428E44936709FBE8F99 /* Pods-Stream.it iOS */,
+				E1F0C4F7A8164EAA0AA2FAAFB3EE7D39 /* SwiftAudioPlayer.framework */,
+				1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E4AC4F89A2AF9816211A6EFCE52BA81 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				03D911DB40119965FC741850E1F8656C /* YouTubePlayer.swift */,
+				81A62E5A456C6F2C2AF1232F79629D32 /* Resources */,
+				4D2B133C698F1F794109D429493C20EC /* Support Files */,
+			);
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		C1B2C6E8C1DDC22A209D0CE021818C51 /* Pods-Stream.it */ = {
+			isa = PBXGroup;
+			children = (
+				63DAA82E7A6B023443EB332401E03701 /* Pods-Stream.it.modulemap */,
+				B31CE9034A30354EB3EE4E82ADFCC822 /* Pods-Stream.it-acknowledgements.markdown */,
+				724A601D79F84BF27355EC58E446662C /* Pods-Stream.it-acknowledgements.plist */,
+				9D9F1D6C435880127929FD8F953DB6CF /* Pods-Stream.it-dummy.m */,
+				2773420503A490E0DE1FC678E62D4E98 /* Pods-Stream.it-Info.plist */,
+				AE1793237659AE18CF31B763EC0EE93F /* Pods-Stream.it-umbrella.h */,
+				38B0536CE396F1FCBFA9B1E8DF26E93F /* Pods-Stream.it.debug.xcconfig */,
+				34FA4A680AF39BE315B38215B6628D0D /* Pods-Stream.it.release.xcconfig */,
+			);
+			name = "Pods-Stream.it";
+			path = "Target Support Files/Pods-Stream.it";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */,
+				F3DCC7B269A12533274268C58F8BF0E7 /* Pods */,
+				950F853D5A5BB9A8113D352882833A1A /* Products */,
+				4BC766C504E78AE137B441E07333195E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D59F7400F4C800C2B9C59DB23A71888E /* SwiftAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AC56E2B96AA4A904745A64921154C2DA /* AudioClockDirector.swift */,
+				1D924F80B4640F3A73044DCE441CAFB4 /* AudioConverter.swift */,
+				358B27C6ED137541A493926F2E6BD1A8 /* AudioConverterErrors.swift */,
+				7E0A54093D63456F445B7AB02A27E0EF /* AudioConverterListener.swift */,
+				5A46A8AA5C5F123B01402B3A19CB53B2 /* AudioDataManager.swift */,
+				8A811AA1984C2C86A7CA6EA9C23E6D77 /* AudioDiskEngine.swift */,
+				A319C8E7453BA8DEC4303A80670179E3 /* AudioDownloadWorker.swift */,
+				0650E62FA1C0445CF588879CF34A753C /* AudioEngine.swift */,
+				02E196BD17DC630372563FE410195473 /* AudioParsable.swift */,
+				A0FF6E5E44AF107F827BBD2F5020372D /* AudioParser.swift */,
+				DD237CA9455A12056DF7F8BEF27A7496 /* AudioParserErrors.swift */,
+				F42B3243C0B64A4F8384D9EC6CA26CD4 /* AudioParserPacketListener.swift */,
+				237554CD1CF73A935EC3D6495638A92D /* AudioParserPropertyListener.swift */,
+				FD023FCE2A9BD6FF3FBB1EDDAC9CFE4E /* AudioQueue.swift */,
+				A2699084D24007D4FE363B74BEB24D86 /* AudioQueueDirector.swift */,
+				431503FD4060ED35E412ACACB0439181 /* AudioStreamEngine.swift */,
+				80CBE693A58BE96964B5454F970B7AF4 /* AudioStreamWorker.swift */,
+				A88097DCE12AEC14185B775C7FA5EADE /* AudioThrottler.swift */,
+				9767258344144F7323E4A7DA9B5FA0FE /* Constants.swift */,
+				9995F5C84772F9BB826E1325C9ABCB6D /* Data.swift */,
+				1F3388AE3EEF3F5423E7FA23404E1ACE /* Date.swift */,
+				F589C72FDD0F5ABE39FAD6ADBC8E370F /* DirectorThreadSafeClosures.swift */,
+				875FBD16DCB34659E334BCAC613A3523 /* DirectorThreadSafeClosuresDeprecated.swift */,
+				1CE7D2B5600407B23C0BE74E2571EF3C /* DownloadProgressDirector.swift */,
+				E6109A7041D5ED72B0E38D146514DD12 /* FileStorage.swift */,
+				18CB2BA9999FB7BFE30A6AB8ACE19A55 /* LockScreenViewProtocol.swift */,
+				9A1B9F9217490098EADEC7BE40F0C327 /* Log.swift */,
+				6877167F5AA37B44A25C390C452BA3E9 /* SAAudioAvailabilityRange.swift */,
+				54091E6536B5045B25F3EF6EFCA8627B /* SAPlayer.swift */,
+				82AE9072A5704041A9B8B2BEDB43047B /* SAPlayerDelegate.swift */,
+				CB514DB1375CDDF9D652992E83E39964 /* SAPlayerDownloader.swift */,
+				35C95D6D21C178EF92313D4015848A85 /* SAPlayerFeatures.swift */,
+				846A85768941CF2E99EC38326A408DD6 /* SAPlayerHelpers.swift */,
+				A33DAAF617E10962D075A7FEC4D81009 /* SAPlayerPresenter.swift */,
+				07088BF1B93B4B9AAC369A3B28FC3DD7 /* SAPlayerUpdateSubscription.swift */,
+				056FD1742E7C5055AAD17F66D20865CF /* SAPlayingStatus.swift */,
+				F8E26E609F6682FF036D3B1129C9D5FD /* StreamingDownloadDirector.swift */,
+				1BE23A1AADFBCE29BF4D3BB76315A8E1 /* StreamProgressDTO.swift */,
+				6CCB606926F482364C4809386CBD5902 /* StreamProgressPTO.swift */,
+				B00815C1B48903CE67A8C1476034CB23 /* URL.swift */,
+				50D5B59A0A3B542C94A5272E5319C3CA /* Support Files */,
+			);
+			path = SwiftAudioPlayer;
+			sourceTree = "<group>";
+		};
+		DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3261E5A5395F45780622405F504B2804 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3DCC7B269A12533274268C58F8BF0E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D59F7400F4C800C2B9C59DB23A71888E /* SwiftAudioPlayer */,
+				9E4AC4F89A2AF9816211A6EFCE52BA81 /* YouTubePlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02E6CFB1A3AED607FDD6897E56C5B047 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3B02C9DC7420B3FA078F8C1199CD00 /* Pods-Stream.it-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1997AA99702726DBE01165A2533D21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C2A6A45F0423B4B5A8733FBB9093F1 /* SwiftAudioPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D425ABE16A0DD7C44BF6C3580EECC4A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904B55B094E028CFA1325184C0658BEC /* Pods-Stream.it iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A4A2DC4CC1C557D90EA7B92BEF3B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF93F8EC731E6181A27DA8FC2D07E191 /* YouTubePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745BE22A79DC8EF960E63735E315661D /* Build configuration list for PBXNativeTarget "YouTubePlayer" */;
+			buildPhases = (
+				E7A4A2DC4CC1C557D90EA7B92BEF3B21 /* Headers */,
+				500B549F896BDEE65DCF504B0CF613E9 /* Sources */,
+				EFE25855AC344DA6FA9684D799E49984 /* Frameworks */,
+				BF8AED6658D6A593E6BB50EBA28D4A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePlayer;
+			productName = YouTubePlayer;
+			productReference = 1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74FFA2AC80C4F76A26E7D5550878EE58 /* Pods-Stream.it */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80581512353C0451A041CFE5CF22EA2 /* Build configuration list for PBXNativeTarget "Pods-Stream.it" */;
+			buildPhases = (
+				02E6CFB1A3AED607FDD6897E56C5B047 /* Headers */,
+				A7494A96D860BD482B56964F7C8D600F /* Sources */,
+				AE27A3FA6BE0744482CAB9F8EF32ACBB /* Frameworks */,
+				677819AD2AA5A5AFD8EFF899874953DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Stream.it";
+			productName = Pods_Stream_it;
+			productReference = CAA622C17B4FF12322C40DAB3BCBB223 /* Pods_Stream_it.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E508D76036A191F13D412596FCEE57AB /* Pods-Stream.it iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942BB8DC56B810F873BAA4639383DE9B /* Build configuration list for PBXNativeTarget "Pods-Stream.it iOS" */;
+			buildPhases = (
+				D425ABE16A0DD7C44BF6C3580EECC4A9 /* Headers */,
+				A3C3E57F3E1EB0881BE8A8BC90BB6151 /* Sources */,
+				A44911F944FD7C91BA7CEF5415FC7F77 /* Frameworks */,
+				694654EB9DF8230A9E9584F21AF24A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B705439ACF2270EB8BADC47D1A3450FA /* PBXTargetDependency */,
+				9B0044220459B9460666390792CAE971 /* PBXTargetDependency */,
+			);
+			name = "Pods-Stream.it iOS";
+			productName = Pods_Stream_it_iOS;
+			productReference = E164FC4192B8F428E44936709FBE8F99 /* Pods-Stream.it iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBFDAF801D749F87A32FC2773FFE7390 /* SwiftAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F6BFFF81F8AA967BDA1A637FC45858 /* Build configuration list for PBXNativeTarget "SwiftAudioPlayer" */;
+			buildPhases = (
+				0C1997AA99702726DBE01165A2533D21 /* Headers */,
+				A66B00C54D230FC3EA3BD74E4FC03917 /* Sources */,
+				6DF9EFD42B13196AB8F9F7AE1E627F8C /* Frameworks */,
+				C13C98C9319473A21B97962709A06F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAudioPlayer;
+			productName = SwiftAudioPlayer;
+			productReference = E1F0C4F7A8164EAA0AA2FAAFB3EE7D39 /* SwiftAudioPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 950F853D5A5BB9A8113D352882833A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FFA2AC80C4F76A26E7D5550878EE58 /* Pods-Stream.it */,
+				E508D76036A191F13D412596FCEE57AB /* Pods-Stream.it iOS */,
+				FBFDAF801D749F87A32FC2773FFE7390 /* SwiftAudioPlayer */,
+				6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		677819AD2AA5A5AFD8EFF899874953DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694654EB9DF8230A9E9584F21AF24A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8AED6658D6A593E6BB50EBA28D4A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E1181C79D9E669444C320395D254DE /* YTPlayer.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13C98C9319473A21B97962709A06F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		500B549F896BDEE65DCF504B0CF613E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FEC95251A8E947187AF0CDD5FF24AA /* YouTubePlayer.swift in Sources */,
+				C563ABF10AAE505C95D987F88FB9E0BD /* YouTubePlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C3E57F3E1EB0881BE8A8BC90BB6151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10A7A87427AE3308A01DC84D9C9E9B /* Pods-Stream.it iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66B00C54D230FC3EA3BD74E4FC03917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB08298B314FA7D99E5E9C78597B2ECC /* AudioClockDirector.swift in Sources */,
+				0970AEF5F44524597BFE7319F3899841 /* AudioConverter.swift in Sources */,
+				AF353D74401306464BF92055A2C3442C /* AudioConverterErrors.swift in Sources */,
+				C018775B8C99FE0D182C864F61C6DFEE /* AudioConverterListener.swift in Sources */,
+				65D06025EE2F0A07B71F3B312CC0B944 /* AudioDataManager.swift in Sources */,
+				B76BDCEB38EB565ADCE662AEB0BD352D /* AudioDiskEngine.swift in Sources */,
+				1B6EC59802D31BE0B70A3B2EDC7555AC /* AudioDownloadWorker.swift in Sources */,
+				E3E65393417F64ED73B1292878190FB9 /* AudioEngine.swift in Sources */,
+				F7C2667C42DACD40996B939C843C17ED /* AudioParsable.swift in Sources */,
+				C476AE489AC032C4E6BCE082C1FC12DB /* AudioParser.swift in Sources */,
+				98ED989444E9F6E4AE75A5C62211456A /* AudioParserErrors.swift in Sources */,
+				1D72E03DF79E36E3B1D570ECBB9CEF11 /* AudioParserPacketListener.swift in Sources */,
+				E8C1ABBC5891DB3A42B97C64BC18A9D5 /* AudioParserPropertyListener.swift in Sources */,
+				0FE86E6F6A51BD4E6D4A7E903545E1E3 /* AudioQueue.swift in Sources */,
+				571280A1BCEBAF880C229B684D65312E /* AudioQueueDirector.swift in Sources */,
+				198A9C6930D89FF5206D86E2D3AFABCC /* AudioStreamEngine.swift in Sources */,
+				0BACCD30BE71D046440ADA1E8953F450 /* AudioStreamWorker.swift in Sources */,
+				3C4312279116CB39740057FB7B12AF4B /* AudioThrottler.swift in Sources */,
+				83F4A638D27A828C4B802778EC4BE98A /* Constants.swift in Sources */,
+				2C9CDDE18FCA46F9351451521995D65A /* Data.swift in Sources */,
+				0C27045051E4170B9F156D049695A896 /* Date.swift in Sources */,
+				5E16A536FA91AC6319D2F23E98178220 /* DirectorThreadSafeClosures.swift in Sources */,
+				81B0E4B5CA68235A37D86398E2BCEC5A /* DirectorThreadSafeClosuresDeprecated.swift in Sources */,
+				F59134582A0828C0A9E5CA82C9A67986 /* DownloadProgressDirector.swift in Sources */,
+				A9493963E319CD5751CE91E57F507589 /* FileStorage.swift in Sources */,
+				EB69E4E47F4A81792C62A82D9AD64A5D /* LockScreenViewProtocol.swift in Sources */,
+				65C3A0A52B40B8E9D3BFCD964EDE508D /* Log.swift in Sources */,
+				DC0C12012E9D26046DA7E853863490C9 /* SAAudioAvailabilityRange.swift in Sources */,
+				53D59E373510F1E69721BBEEE6D2B956 /* SAPlayer.swift in Sources */,
+				C998FCBDD3585504440701A3A99A6D27 /* SAPlayerDelegate.swift in Sources */,
+				4504586409FFAF9C636C80A571FF7B9F /* SAPlayerDownloader.swift in Sources */,
+				57E5E46E0769D3B27E347FA9608022C0 /* SAPlayerFeatures.swift in Sources */,
+				B4DD2EDAED8F75345383006E53F0CBE2 /* SAPlayerHelpers.swift in Sources */,
+				7EA2854B68A7616A73A3AAAAC0390B35 /* SAPlayerPresenter.swift in Sources */,
+				081832C26D5BA5B22489AF1D07094CD9 /* SAPlayerUpdateSubscription.swift in Sources */,
+				A046CD512717525C845E4EFF78F75E8F /* SAPlayingStatus.swift in Sources */,
+				44D7B86E15D251E8C60B0ECFC83D7305 /* StreamingDownloadDirector.swift in Sources */,
+				AC360861C34C20A0E530DD64D71C1A6C /* StreamProgressDTO.swift in Sources */,
+				7EBAD84DB74B626670BC0D413D5654DA /* StreamProgressPTO.swift in Sources */,
+				0050207DE1AD9E807C300821AAF90F2F /* SwiftAudioPlayer-dummy.m in Sources */,
+				62A909D8DCA0C7CDF80F209E70AF646F /* URL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7494A96D860BD482B56964F7C8D600F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5863A3844971446B23A0C9BAAAABD1 /* Pods-Stream.it-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B0044220459B9460666390792CAE971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = 6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */;
+			targetProxy = B818550A43DF22A0BCA8585755D1913B /* PBXContainerItemProxy */;
+		};
+		B705439ACF2270EB8BADC47D1A3450FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftAudioPlayer;
+			target = FBFDAF801D749F87A32FC2773FFE7390 /* SwiftAudioPlayer */;
+			targetProxy = 01F76157B57CED7BB61F98E19F3A587A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BD8B331486EBC50DA3524349E3EE378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FA4A680AF39BE315B38215B6628D0D /* Pods-Stream.it.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stream.it/Pods-Stream.it-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stream.it/Pods-Stream.it.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FAD80CBC54487239CF4D3EFE349CADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD412E98143B95AB899EDBCDF68FE10 /* YouTubePlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_MODULE_NAME = YouTubePlayer;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22BF592312F1B43BDC6A713BF2BB693D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA569BF34EE7BF3F41E74E3761142466 /* SwiftAudioPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAudioPlayer;
+				PRODUCT_NAME = SwiftAudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		342AC8CC5F5EA8F08C06C6B459E997CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D411F9C44DBF54518947B23B8336C79 /* YouTubePlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_MODULE_NAME = YouTubePlayer;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B114294C931AA4E4D2BC6FC9E5297E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E979022596D4038DDB19B1E1E5CD98B /* Pods-Stream.it iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stream.it iOS/Pods-Stream.it iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stream.it iOS/Pods-Stream.it iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B28ED5F85B5BAE7E35CE55F72E44FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A3805B355BADE379D8EBDCE0334B047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B0536CE396F1FCBFA9B1E8DF26E93F /* Pods-Stream.it.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stream.it/Pods-Stream.it-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stream.it/Pods-Stream.it.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A98AF4534E837E4DEEE0D7E63CC5AA24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EE53493CD6F9952C1D9C33732A6E6C /* SwiftAudioPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAudioPlayer;
+				PRODUCT_NAME = SwiftAudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD023864964C1F3F6FEB7C32CF1C5F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436F9B44657B3B8ED66F76E50C36A49B /* Pods-Stream.it iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stream.it iOS/Pods-Stream.it iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stream.it iOS/Pods-Stream.it iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB2AC4EA8131B49966507D679DF3A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12F6BFFF81F8AA967BDA1A637FC45858 /* Build configuration list for PBXNativeTarget "SwiftAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98AF4534E837E4DEEE0D7E63CC5AA24 /* Debug */,
+				22BF592312F1B43BDC6A713BF2BB693D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B28ED5F85B5BAE7E35CE55F72E44FB2 /* Debug */,
+				ECB2AC4EA8131B49966507D679DF3A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745BE22A79DC8EF960E63735E315661D /* Build configuration list for PBXNativeTarget "YouTubePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342AC8CC5F5EA8F08C06C6B459E997CE /* Debug */,
+				1FAD80CBC54487239CF4D3EFE349CADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942BB8DC56B810F873BAA4639383DE9B /* Build configuration list for PBXNativeTarget "Pods-Stream.it iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B114294C931AA4E4D2BC6FC9E5297E0 /* Debug */,
+				AD023864964C1F3F6FEB7C32CF1C5F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80581512353C0451A041CFE5CF22EA2 /* Build configuration list for PBXNativeTarget "Pods-Stream.it" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3805B355BADE379D8EBDCE0334B047 /* Debug */,
+				1BD8B331486EBC50DA3524349E3EE378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
