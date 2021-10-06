@@ -5,7 +5,7 @@ This is a lightweight SwiftUI app that allows you to stream video and audio from
 
 # Releases
 
-Stay Tuned...
+[Click Here...](https://github.com/markydoodled/Stream.it/releases)
 
 # Features
 
