@@ -9,7 +9,16 @@
 /* Begin PBXBuildFile section */
 		7561F2A80A2498EBD3FF509B /* Pods_Stream_it_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF912B02B163A9A36B66E00D /* Pods_Stream_it_iOS.framework */; };
 		97CF7C052CA424AFB4B6A0AE /* Pods_Stream_it.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76798E096E482544E9C5E0A3 /* Pods_Stream_it.framework */; };
+		CA17F885AD1E85F7FC931EEE /* Pods_Stream_it_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EB213344207A9C5BBEE057 /* Pods_Stream_it_tvOS.framework */; };
+		D567AEAD27024D53002DC15F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567AEAC27024D53002DC15F /* SettingsView.swift */; };
+		D567AEAF27025E31002DC15F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D567AEAE27025E31002DC15F /* Settings.bundle */; };
 		D5A3D9AC2700D2AD0025C087 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A3D9AB2700D2AD0025C087 /* SettingsView.swift */; };
+		D5A3D9EE27024AEB0025C087 /* Stream_it_tvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A3D9ED27024AEB0025C087 /* Stream_it_tvOSApp.swift */; };
+		D5A3D9F027024AEB0025C087 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A3D9EF27024AEB0025C087 /* ContentView.swift */; };
+		D5A3D9F227024AF00025C087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A3D9F127024AF00025C087 /* Assets.xcassets */; };
+		D5A3D9F527024AF00025C087 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A3D9F427024AF00025C087 /* Preview Assets.xcassets */; };
+		D5A3D9FB27024BD90025C087 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A3D9FA27024BD90025C087 /* Video.swift */; };
+		D5A3D9FD27024BFD0025C087 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A3D9FC27024BFD0025C087 /* Audio.swift */; };
 		D5F669D52700C29000A679BC /* Stream_itApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F669D42700C29000A679BC /* Stream_itApp.swift */; };
 		D5F669D72700C29000A679BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F669D62700C29000A679BC /* ContentView.swift */; };
 		D5F669D92700C29400A679BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F669D82700C29400A679BC /* Assets.xcassets */; };
@@ -31,7 +40,17 @@
 		6037FB34A23BA0DE3A5C4034 /* Pods-Stream.it.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stream.it.debug.xcconfig"; path = "Target Support Files/Pods-Stream.it/Pods-Stream.it.debug.xcconfig"; sourceTree = "<group>"; };
 		76798E096E482544E9C5E0A3 /* Pods_Stream_it.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stream_it.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5E0EEA0B3D59A4A6A37D40 /* Pods-Stream.it iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stream.it iOS.debug.xcconfig"; path = "Target Support Files/Pods-Stream.it iOS/Pods-Stream.it iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D567AEAC27024D53002DC15F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D567AEAE27025E31002DC15F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D5A3D9AB2700D2AD0025C087 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D5A3D9EB27024AEB0025C087 /* Stream.it tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stream.it tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A3D9ED27024AEB0025C087 /* Stream_it_tvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream_it_tvOSApp.swift; sourceTree = "<group>"; };
+		D5A3D9EF27024AEB0025C087 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5A3D9F127024AF00025C087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A3D9F427024AF00025C087 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5A3D9F927024B350025C087 /* Stream-it-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Stream-it-tvOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D5A3D9FA27024BD90025C087 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		D5A3D9FC27024BFD0025C087 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		D5F669D12700C29000A679BC /* Stream.it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stream.it.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F669D42700C29000A679BC /* Stream_itApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream_itApp.swift; sourceTree = "<group>"; };
 		D5F669D62700C29000A679BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,11 +70,22 @@
 		D5F669FF2700C52900A679BC /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		D5F66A012700C54800A679BC /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		D5F66A032700C55100A679BC /* YouTube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTube.swift; sourceTree = "<group>"; };
+		D7D58C465C1A52B29456D04A /* Pods-Stream.it tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stream.it tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Stream.it tvOS/Pods-Stream.it tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E4321EE6C2B3F7E0BC5C060E /* Pods-Stream.it.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stream.it.release.xcconfig"; path = "Target Support Files/Pods-Stream.it/Pods-Stream.it.release.xcconfig"; sourceTree = "<group>"; };
+		E5EB213344207A9C5BBEE057 /* Pods_Stream_it_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stream_it_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF912B02B163A9A36B66E00D /* Pods_Stream_it_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stream_it_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F927C0B0A5D41D24646FADAE /* Pods-Stream.it tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stream.it tvOS.release.xcconfig"; path = "Target Support Files/Pods-Stream.it tvOS/Pods-Stream.it tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D5A3D9E827024AEB0025C087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA17F885AD1E85F7FC931EEE /* Pods_Stream_it_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5F669CE2700C29000A679BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,6 +110,7 @@
 			children = (
 				76798E096E482544E9C5E0A3 /* Pods_Stream_it.framework */,
 				EF912B02B163A9A36B66E00D /* Pods_Stream_it_iOS.framework */,
+				E5EB213344207A9C5BBEE057 /* Pods_Stream_it_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,8 +122,33 @@
 				E4321EE6C2B3F7E0BC5C060E /* Pods-Stream.it.release.xcconfig */,
 				9E5E0EEA0B3D59A4A6A37D40 /* Pods-Stream.it iOS.debug.xcconfig */,
 				2C8AAAAAB97C82023C44C403 /* Pods-Stream.it iOS.release.xcconfig */,
+				D7D58C465C1A52B29456D04A /* Pods-Stream.it tvOS.debug.xcconfig */,
+				F927C0B0A5D41D24646FADAE /* Pods-Stream.it tvOS.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5A3D9EC27024AEB0025C087 /* Stream.it tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5A3D9F927024B350025C087 /* Stream-it-tvOS-Info.plist */,
+				D5A3D9ED27024AEB0025C087 /* Stream_it_tvOSApp.swift */,
+				D5A3D9EF27024AEB0025C087 /* ContentView.swift */,
+				D5A3D9F127024AF00025C087 /* Assets.xcassets */,
+				D5A3D9F327024AF00025C087 /* Preview Content */,
+				D5A3D9FA27024BD90025C087 /* Video.swift */,
+				D5A3D9FC27024BFD0025C087 /* Audio.swift */,
+				D567AEAC27024D53002DC15F /* SettingsView.swift */,
+			);
+			path = "Stream.it tvOS";
+			sourceTree = "<group>";
+		};
+		D5A3D9F327024AF00025C087 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5A3D9F427024AF00025C087 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D5F669C82700C29000A679BC = {
@@ -100,6 +156,7 @@
 			children = (
 				D5F669D32700C29000A679BC /* Stream.it */,
 				D5F669F12700C49000A679BC /* Stream.it iOS */,
+				D5A3D9EC27024AEB0025C087 /* Stream.it tvOS */,
 				D5F669D22700C29000A679BC /* Products */,
 				42D8FDDA61C5ED3BA83075BE /* Pods */,
 				1FDC8B56DE04ECCA5BDA8525 /* Frameworks */,
@@ -111,6 +168,7 @@
 			children = (
 				D5F669D12700C29000A679BC /* Stream.it.app */,
 				D5F669F02700C49000A679BC /* Stream.it.app */,
+				D5A3D9EB27024AEB0025C087 /* Stream.it tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +209,7 @@
 				D5F66A012700C54800A679BC /* Audio.swift */,
 				D5F66A032700C55100A679BC /* YouTube.swift */,
 				D5A3D9AB2700D2AD0025C087 /* SettingsView.swift */,
+				D567AEAE27025E31002DC15F /* Settings.bundle */,
 			);
 			path = "Stream.it iOS";
 			sourceTree = "<group>";
@@ -166,6 +225,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D5A3D9EA27024AEB0025C087 /* Stream.it tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A3D9F627024AF00025C087 /* Build configuration list for PBXNativeTarget "Stream.it tvOS" */;
+			buildPhases = (
+				77E666E648302A6FBE0AE97A /* [CP] Check Pods Manifest.lock */,
+				D5A3D9E727024AEB0025C087 /* Sources */,
+				D5A3D9E827024AEB0025C087 /* Frameworks */,
+				D5A3D9E927024AEB0025C087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stream.it tvOS";
+			productName = "Stream.it tvOS";
+			productReference = D5A3D9EB27024AEB0025C087 /* Stream.it tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D5F669D02700C29000A679BC /* Stream.it */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5F669E02700C29400A679BC /* Build configuration list for PBXNativeTarget "Stream.it" */;
@@ -213,6 +290,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					D5A3D9EA27024AEB0025C087 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					D5F669D02700C29000A679BC = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -236,11 +316,21 @@
 			targets = (
 				D5F669D02700C29000A679BC /* Stream.it */,
 				D5F669EF2700C49000A679BC /* Stream.it iOS */,
+				D5A3D9EA27024AEB0025C087 /* Stream.it tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D5A3D9E927024AEB0025C087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A3D9F527024AF00025C087 /* Preview Assets.xcassets in Resources */,
+				D5A3D9F227024AF00025C087 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5F669CF2700C29000A679BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5F669FA2700C49600A679BC /* Preview Assets.xcassets in Resources */,
+				D567AEAF27025E31002DC15F /* Settings.bundle in Resources */,
 				D5F669F72700C49600A679BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +368,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stream.it iOS/Pods-Stream.it iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E666E648302A6FBE0AE97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stream.it tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		81171CA084A2030D7FE4F5FF /* [CP] Check Pods Manifest.lock */ = {
@@ -326,6 +439,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D5A3D9E727024AEB0025C087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567AEAD27024D53002DC15F /* SettingsView.swift in Sources */,
+				D5A3D9FD27024BFD0025C087 /* Audio.swift in Sources */,
+				D5A3D9F027024AEB0025C087 /* ContentView.swift in Sources */,
+				D5A3D9FB27024BD90025C087 /* Video.swift in Sources */,
+				D5A3D9EE27024AEB0025C087 /* Stream_it_tvOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5F669CD2700C29000A679BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +479,73 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D5A3D9F727024AF00025C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D58C465C1A52B29456D04A /* Pods-Stream.it tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Stream.it tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stream-it-tvOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Stream.it;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Stream-it-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		D5A3D9F827024AF00025C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F927C0B0A5D41D24646FADAE /* Pods-Stream.it tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Stream.it tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stream-it-tvOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Stream.it;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Stream-it-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D5F669DE2700C29400A679BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,7 +671,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Stream.it/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -493,7 +685,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Stream-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -511,7 +703,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Stream.it/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -525,7 +717,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Stream-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -540,12 +732,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Stream.it iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Stream-it-iOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Stream.it;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -557,7 +751,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Stream-it-iOS";
 				PRODUCT_NAME = Stream.it;
 				SDKROOT = iphoneos;
@@ -574,12 +768,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Stream.it iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Stream-it-iOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Stream.it;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -591,7 +787,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Stream-it-iOS";
 				PRODUCT_NAME = Stream.it;
 				SDKROOT = iphoneos;
@@ -605,6 +801,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D5A3D9F627024AF00025C087 /* Build configuration list for PBXNativeTarget "Stream.it tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A3D9F727024AF00025C087 /* Debug */,
+				D5A3D9F827024AF00025C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D5F669CC2700C29000A679BC /* Build configuration list for PBXProject "Stream.it" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
