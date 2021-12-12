@@ -35,6 +35,7 @@ struct Audio: View {
                 Button(action: {self.showingURL = true}) {
                     Image(systemName: "curlybraces")
                 }
+                .help("Enter Stream URL")
                 .sheet(isPresented: $showingURL) {
                     url
                         .frame(width: 350)
@@ -52,6 +53,7 @@ struct Audio: View {
                 Button(action: {self.showingDownload = true}) {
                     Image(systemName: "arrow.down.circle")
                 }
+                .help("Enter Download URL")
                 .sheet(isPresented: $showingDownload) {
                     download
                         .frame(width: 350)
