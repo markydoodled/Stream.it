@@ -1,7 +1,7 @@
 # Stream.it
 **About**
 
-This is a lightweight SwiftUI app that allows you to stream video and audio from a file or URL of any kind. This misses out all of the trouble with ads, and the large app sizes of video streaming apps like YouTube. (Note: Doesn't Support Streaming From Unsecure Protocols, e.g. http, Use https)
+This Is A Lightweight SwiftUI App That Allows You To Stream Video And Audio From A File Or URL Of Any Kind. This Misses Out All Of The Trouble With Ads, And The Large App Sizes Of Video Streaming Apps Like YouTube.
 
 # Releases
 
@@ -17,10 +17,23 @@ This is a lightweight SwiftUI app that allows you to stream video and audio from
 - Video Downloading
 - Audio Downloading
 
-# Features To Come
+# Features To Be Implemented 
 
 Any Suggestions...
 
 # Images
 
 [Click Here...](https://github.com/markydoodled/Stream.it/tree/main/Images)
+
+## **Things To Note**
+
+ 1. This Project Is Free To Be Added To By The Community, If You Wish To Help, File A Issue With The Enhancement Tag
+ 2. Any And All Feedback Will Be Helpful For Future Development
+ 3. If You Wish To Report A Bug, Please Use Either The Feedback Button In The App Or Use GitHub Issues
+ 4. Doesn't Support Streaming From Unsecure Protocols, e.g. http, Use https
+ 
+ ## **Credits**
+ 
+ Thanks To These People Who Developed These Packages, Who Without This Project Would Not Be Possible:
+ 
+ - gilesvangruisen [Swift-YouTube-Player](https://github.com/gilesvangruisen/Swift-YouTube-Player)
