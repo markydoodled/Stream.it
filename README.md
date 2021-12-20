@@ -3,11 +3,11 @@
 
 This Is A Lightweight SwiftUI App That Allows You To Stream Video And Audio From A File Or URL Of Any Kind. This Misses Out All Of The Trouble With Ads, And The Large App Sizes Of Video Streaming Apps Like YouTube.
 
-# Releases
+# **Releases**
 
 [Click Here...](https://github.com/markydoodled/Stream.it/releases)
 
-# Features
+# **Features**
 
 - Stream Video From A URL
 - Stream Audio From A URL
@@ -17,11 +17,11 @@ This Is A Lightweight SwiftUI App That Allows You To Stream Video And Audio From
 - Video Downloading
 - Audio Downloading
 
-# Features To Be Implemented 
+# **Features To Be Implemented**
 
 Any Suggestions...
 
-# Images
+# **Images**
 
 [Click Here...](https://github.com/markydoodled/Stream.it/tree/main/Images)
 
