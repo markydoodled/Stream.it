@@ -3,6 +3,8 @@
 
 This Is A Lightweight SwiftUI App That Allows You To Stream Video And Audio From A File Or URL Of Any Kind. This Misses Out All Of The Trouble With Ads, And The Large App Sizes Of Video Streaming Apps Like YouTube.
 
+THIS IS AN EXAMPLE APP THAT SHOWS EXAMPLE CODE THAT IS USED TO HELP PEOPLE UNDERSTAND HOW iOS AND SwiftUI WORKS, PLEASE EXPECT BUGS!
+
 # **Releases**
 
 [Click Here...](https://github.com/markydoodled/Stream.it/releases)
