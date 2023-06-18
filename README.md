@@ -18,6 +18,7 @@ THIS IS AN EXAMPLE APP THAT SHOWS EXAMPLE CODE THAT IS USED TO HELP PEOPLE UNDER
 - Stream YouTube (iOS Only)
 - Video Downloading
 - Audio Downloading
+- Feedback Button
 
 ## **Things To Note**
 
